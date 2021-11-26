@@ -14,7 +14,8 @@ public class HashMapMain {
 				value = value + 1;
 			myHashMap.add(word, value); 
 		}
-		int frequency = myHashMap.get("paranoid");
-		System.out.println("frequency is of \"paranoid\" is " + frequency);
+		System.out.println(myHashMap);
+		myHashMap.delete("paranoid");
+		System.out.println(myHashMap);
 	}
 }
